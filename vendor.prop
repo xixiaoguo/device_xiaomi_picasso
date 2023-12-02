@@ -152,6 +152,10 @@ persist.vendor.qcomsysd.enabled=1
 # RCS
 persist.rcs.supported=0
 
+# FM
+vendor.audio.feature.fm.enable=true
+vendor.hw.fm.init=0
+
 # RIL
 persist.radio.dynamic_sar=false
 persist.radio.multisim.config=dsds
