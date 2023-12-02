@@ -430,6 +430,9 @@ service vendor.ss_ramdump /system/vendor/bin/subsystem_ramdump
     group system
     ioprio rt 4
     disabled
+# fm    
+on property:hw.fm.init=*
+    write /sys/module/radio_iris_transport/parameters/fmsmd_set ${hw.fm.init}
 
 on property:ro.vendor.iocgrp.config=1
     mkdir /dev/blkio
