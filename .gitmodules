@@ -1,7 +1,3 @@
 [submodule "RevampedFMRadio"]
 	path = RevampedFMRadio
 	url = https://github.com/xixiaoguo/RevampedFMRadio
-
-[submodule "NotchBarKiller"]
-	path = /rro_overlays/NotchBarKiller
-	url = https://github.com/masemoel/device_xiaomi_picasso/tree/crDroid-T/rro_overlays/NotchBarKiller
